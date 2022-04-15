@@ -1,0 +1,15 @@
+span {
+    /* color: lightskyblue; */
+    color (255,255,255,0.5);
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    color: lightpink;
+}
+
+h1 {
+    color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

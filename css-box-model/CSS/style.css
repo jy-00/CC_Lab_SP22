@@ -1,0 +1,38 @@
+body {
+  background-color: powderblue; 
+  margin:0; 
+} 
+
+div {
+background-color: pink;
+font-style: italic;
+/* width: 200px; */
+/* width: auto; */
+width: 50%;
+height: 150 px;
+margin: 20 50 400px;
+
+border-width: 5px;
+border-style:dashed;
+border-color: rosybrown;
+}
+
+#special-box{
+background-color: aquamarine;
+
+}
+#very-special-box{
+    background-color: brown;
+}
+.box{
+    background-color: blueviolet;
+}
+
+.title{
+    font-weight: bold;
+}
+p{
+    background-color: beige;
+    margin: 100px; 
+}
+
