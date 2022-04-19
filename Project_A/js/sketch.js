@@ -27,7 +27,10 @@ let backgroundColor = [108, 46, 37];
 // let backgroundColor = [6,57,112];
 
 function setup() {
-  createCanvas(900, 600);
+  // contains sketch within a container in html
+  let canvas = createCanvas(900, 600);
+  canvas.parent("projectSketch");
+
   background(backgroundColor, 60);
 
   mountHt = 310;

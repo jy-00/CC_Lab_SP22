@@ -1,0 +1,141 @@
+html,
+body {
+  /* background setting */
+  background-color: #ead6d8;
+  font-family: 'EB Garamond', sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+/* text */
+.headingA {
+  color: #333549;
+  font-family: 'Permanent Marker', sans-serif;
+  font-style: normal;
+  font-size: 46px;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+.headingA:hover {
+  color: #717285;
+}
+
+/* interactive line element */
+.line {
+  width: 100%;
+  height: 1.5px;
+  background-color: #bab5ac;
+  transition: width 2s;
+}
+
+.line:hover {
+  width: 10px;
+  background-color: palevioletred;
+}
+
+/* text designs */
+.headingB {
+  color: rgba(94, 29, 60, 1);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+.headingB:hover {
+  color: #C2B099;
+}
+
+.headingC {
+  color: rgb(237, 124, 141);
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.headingC:hover {
+  color: #ac97b4;
+}
+
+.intro {
+  color: #5D7095;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.intro:hover {
+  color: rgb(139, 136, 169);
+}
+
+/* style for buttons */
+.buttonContainer {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.button {
+  background-color: #a5aea5;
+  /* background-color: rgb(132, 186, 224); */
+  color: #5D7095;
+  padding: 10px 13px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 30px;
+  font-family: 'Nanum Pen Script', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  border: 2px solid #bab5ac;
+  transition-duration: 1s;
+}
+
+.button:hover {
+  background-color: #dac9bf;
+  /* from https://www.w3schools.com/css/css3_buttons.asp */
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+a:visited {
+  color: darkcyan;
+}
+
+a:hover {
+  color: #90A5A7;
+  transition: color 0.5s ease-in-out;
+}
+
+a:active {
+  color: black;
+}
+
+#projectSketch {
+  position: relative;
+  left: calc(50% - 450px);
+  top: calc(50% - 300px);
+  /* learned from https://editor.p5js.org/MOQN/sketches/l5OUgtzD_ */
+}
+
+#ending {
+  font-style: normal;
+  margin: 20px;
+}
+
+#ending:hover {
+  color: #90A5A7;
+}

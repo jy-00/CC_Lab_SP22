@@ -1,12 +1,71 @@
-<!DOCTYPE html><html lang="en"><head>
-    <script src="p5.js"></script>
-    <script src="p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
 
-  </head>
-  <body>
-    <script src="sketch.js"></script>
-  
+<head>
+  <script src="js/p5.js"></script>
+  <script src="js/p5.sound.min.js"></script>
 
-</body></html>
+  <!-- style reference to another file -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+
+  <!-- google font references -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Josefin+Sans:wght@300&family=Nanum+Pen+Script&family=Permanent+Marker&family=Square+Peg&family=Whisper&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <p class="headingA">
+    <!-- biggest heading -->
+    <!-- changes color when hovered -->
+    Project A Introduction
+  </p>
+
+  <!-- a line interaction; shortens when hovered -->
+  <div class="line"></div>
+
+  <p class="headingB">
+    <!-- subtitle -->
+    " Lights Up in the Sky "
+  </p>
+
+  <p class="headingC">
+    ~Where Code Greets Nature~
+  </p>
+
+  <p class="intro">
+    <!-- introduction paragraph -->
+    <b>Starting</b> from an inspiration from volcanic lighting and progressing to construct an ecosystem of its own-with code as its 'oxygen'. Class becomes 'soil', function the 'sky', random the 'air', splice the law of 'nature', and #5E1D30 the 'light'.
+  </p>
+
+  <!-- buttons for related links -->
+  <div class=buttonContainer>
+    <button id="codeButton" class="button"><a href="https://editor.p5js.org/Jy2922/sketches/8iSNhcXHg"
+        target="_blank">Visit Code</a></button>
+
+    <button id="sketchButton" class="button"><a href="https://editor.p5js.org/Jy2922/full/8iSNhcXHg"
+        target="_blank">View
+        Live Sketch</a></button>
+
+    <button id="documentationButton" class="button"><a
+        href="https://wp.nyu.edu/jingyisintlab/2022/04/03/cc-lab-project-a-documentation/" target="_blank">Read Progress
+        Documentation</a></button>
+  </div>
+
+  <div id="projectSketch"></div>
+  <script src="js/sketch.js"></script>
+
+  <p id = "ending" class="intro">
+    This project bases some of its appearance and logic on the natural phenomenon of volcanic lightning. This is a rare
+    phenomenon that occurs when there is an electrical discharge during a volcanic eruption where the colliding and
+    friction between the particles of volcanic ash generates static electricity, giving birth to lightning.
+
+    Though inspired by a natural phenomenon, this project adds creativity to its elements- through the use of code-and
+    creates an imagined, unnatural nature that only exists in this universe.
+  </p>
+</body>
+
+</html>
