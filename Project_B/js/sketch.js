@@ -160,7 +160,7 @@ function setup() {
   pop();
 
   //boat
-  boat = new ImageObject(331, 384, 0.5, 0.8, imgBoat, imgBoat);
+  boat = new ImageObject(331, 384, 0.3, 0.8, imgBoat, imgBoat);
 }
 
 function draw() {
