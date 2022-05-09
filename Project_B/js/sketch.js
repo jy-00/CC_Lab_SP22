@@ -269,7 +269,7 @@ function displayBoat() {
 
     //generates ripples
     if (random() < 0.05) {
-      ripples.push(new Ripple(boat.x, boat.y+30, 150, 30));
+      ripples.push(new Ripple(boat.x, boat.y+15, 100, 20));
     }
     
     //using boat's position to manipulate BGM sound
