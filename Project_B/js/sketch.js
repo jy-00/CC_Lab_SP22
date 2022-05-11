@@ -229,11 +229,11 @@ function draw() {
 
 function playBgmMusic() {
   bgm = bgmMusic[sunIndex];
+  bgm.setVolume(bgmLevel);
+  bgm.pan(bgmPan);
+  //console.log(bgmLevel, bgmPan);
   if (!bgm.isPlaying()) {
-    bgm.setVolume(bgmLevel);
-    bgm.pan(bgmPan);
     bgm.loop();
-    //console.log(bgm);
   }
 }
 
