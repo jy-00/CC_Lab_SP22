@@ -406,12 +406,24 @@ class ImageObject {
       }
   }
   checkPlace() {
-    //for boat; if boat is out of the canvas, bring it back to initial position!
+    //for boat; if boat is out of the canvas OR on the mountains, bring it back to initial position!
+
+    // let distanceL = dist(143, 311, mouseX, mouseY);
+    // let radL = 70;
+    // let distanceR = dist(677, 150, mouseX, mouseY);
+    // let radR = 60;
+    let onMountainL =
+      this.x >= 0 && this.x <= 270 && this.y >= 207 && this.y <= 418;
+    let onMountainR =
+      this.x >= 520 && this.x <= 740 && this.y >= 95 && this.y <= 200;
+
     if (
       this.x < -10 ||
       this.x > width + 10 ||
       this.y < -10 ||
-      this.y > height + 10
+      this.y > height + 10 ||
+      onMountainL == true ||
+      onMountainR == true
     ) {
       this.x = 331;
       this.y = 384;
